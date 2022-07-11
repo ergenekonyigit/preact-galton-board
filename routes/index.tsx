@@ -6,9 +6,11 @@ import GaltonBoard from "../islands/GaltonBoard.tsx";
 export default function Home() {
   return (
     <div class={tw`grid h-screen place-items-center`}>
-      <GaltonBoard />
       <div class={tw`text(center)`}>
         <div class={tw`font-bold text(xl blue-400)`}>Galton Board</div>
+      </div>
+      <GaltonBoard />
+      <div class={tw`text(center)`}>
         <a
           class={tw`text(xs gray-400)`}
           target="_blank"
